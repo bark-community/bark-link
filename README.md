@@ -1,13 +1,10 @@
-# BARK AID | Fundraising App: Decentralized Crowdfunding on Solana
-
-## Introduction
+# BARK AID | Fundraising dApp: Decentralized Crowdfunding on Solana
 
 BARK AID is a decentralized crowdfunding platform built on the Solana blockchain. It enhances the crowdfunding experience by combining Solana's speed and scalability with user-friendly features. BARK supports individuals in need, project creators, and supporters while ensuring transparency, efficiency, and security for all fundraising campaigns.
 
 ## Table of Contents
 
-- [BARK AID | Fundraising App: Decentralized Crowdfunding on Solana](#bark-aid--fundraising-app-decentralized-crowdfunding-on-solana)
-  - [Introduction](#introduction)
+- [BARK AID | Fundraising dApp: Decentralized Crowdfunding on Solana](#bark-aid--fundraising-dapp-decentralized-crowdfunding-on-solana)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Goals](#goals)
@@ -32,7 +29,7 @@ BARK AID leverages Solana's blockchain for decentralized crowdfunding, providing
 
 - **Transparency:** Ensure transparency through Solana blockchain technology for all campaign activities.
 - **Efficiency:** Utilize Solana's high throughput for quick and cost-effective transactions.
-- **Inclusivity:** Create an accessible global crowdfunding ecosystem.
+- **Inclusively:** Create an accessible global crowdfunding ecosystem.
 - **Innovation:** Introduce NFT rewards, decentralized governance, and cross-chain compatibility.
 
 ## Features
@@ -72,22 +69,23 @@ BARK AID leverages Solana's blockchain for decentralized crowdfunding, providing
 
 To learn more about Next.js, take a look at the following resources:
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- [Next.js GitHub Repository](https://github.com/vercel/next.js/) - Your feedback and contributions are welcome!
 
 ### Deploy on Vercel
+
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-Check out our Next.js deployment documentation for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ### Installation
 
 1. Clone the BARK AID repository:
 
    ```bash
-   git clone https://github.com/bark-community/charity-app.git
-   cd crowdfunding
+   git clone https://github.com/bark-community/crowdfunding-dapp.git
+   cd crowdfunding-dapp
    ```
 
 2. Install dependencies:
@@ -143,8 +141,8 @@ BARK AID excels with:
 
 ## Contributing
 
-We welcome contributions! Report issues or submit pull requests on [GitHub](https://github.com/your-username/bark).
+We welcome contributions! Report issues or submit pull requests on [GitHub](https://github.com/bark-community/charity-app).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT License](LICENSE).

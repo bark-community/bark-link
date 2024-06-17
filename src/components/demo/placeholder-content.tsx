@@ -23,7 +23,7 @@ export default function PlaceholderContent() {
                 rel="noopener noreferrer"
                 className="text-xs text-muted-foreground"
               >
-                © 2024 BARK Protocol. All rights reserved. Designed by Barkmannen
+                © 2024 BARK Protocol. All rights reserved.
               </Link>
             </div>
           </div>

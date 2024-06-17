@@ -55,15 +55,19 @@ export function UserNav() {
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem className="hover:cursor-pointer" asChild>
-            <Link href="/dashboard" className="flex items-center">
-              <LayoutGrid className="mr-3 h-4 w-4 text-muted-foreground" />
-              Dashboard
+            <Link href="/dashboard" passHref>
+              <a className="flex items-center">
+                <LayoutGrid className="mr-3 h-4 w-4 text-muted-foreground" />
+                Dashboard
+              </a>
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem className="hover:cursor-pointer" asChild>
-            <Link href="/account" className="flex items-center">
-              <User className="mr-3 h-4 w-4 text-muted-foreground" />
-              Account
+            <Link href="/account" passHref>
+              <a className="flex items-center">
+                <User className="mr-3 h-4 w-4 text-muted-foreground" />
+                Account
+              </a>
             </Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>

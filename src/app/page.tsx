@@ -21,7 +21,7 @@ export default function HomePage() {
           <nav className="ml-auto flex items-center gap-2">
             <Button variant="outline" size="icon" className="h-8 w-8 rounded-full bg-background" asChild>
               <a href="https://github.com/bark-community/crowdfunding-platform" target="_blank" rel="noopener noreferrer">
-                <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem] text-accent" />
+                <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem] text-accent" aria-label="GitHub Repository" />
               </a>
             </Button>
             <ModeToggle />
@@ -41,14 +41,12 @@ export default function HomePage() {
             </p>
             <div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-6">
               <Button variant="default">
-                <Link href="/dashboard">
-                  <a className="flex items-center gap-2">
-                    Demo <ArrowRightIcon className="h-4 w-4" />
-                  </a>
+                <Link href="/dashboard" passHref>
+                  <a className="flex items-center gap-2">Demo <ArrowRightIcon className="h-4 w-4" /></a>
                 </Link>
               </Button>
               <Button variant="outline">
-                <a href="https://solana.com/" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground">
+                <a href="https://doc.crowdfunding.barkprotocol.net/" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground">
                   Documentation
                 </a>
               </Button>
@@ -59,7 +57,7 @@ export default function HomePage() {
               src="/demo-light-min.png"
               width={1080}
               height={608}
-              alt="demo"
+              alt="Demo Light Mode"
               priority
               className="rounded-xl border shadow-sm dark:hidden"
             />
@@ -67,7 +65,7 @@ export default function HomePage() {
               src="/demo-dark-min.png"
               width={1080}
               height={608}
-              alt="demo-dark"
+              alt="Demo Dark Mode"
               priority
               className="hidden rounded-xl border border-border dark:block dark:shadow-gray-500/5"
             />
@@ -75,14 +73,14 @@ export default function HomePage() {
               src="/demo-mobile-light-min.png"
               width={228}
               height={494}
-              alt="demo-mobile"
+              alt="Demo Mobile Light Mode"
               className="absolute bottom-0 right-0 hidden rounded-xl border dark:hidden lg:block"
             />
             <Image
               src="/demo-mobile-dark-min.png"
               width={228}
               height={494}
-              alt="demo-mobile"
+              alt="Demo Mobile Dark Mode"
               className="absolute bottom-0 right-0 hidden rounded-xl border border-border dark:lg:block"
             />
           </div>
