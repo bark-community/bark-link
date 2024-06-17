@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    webpack: (config) => {
-        config.externals.push('pino-pretty', 'lokijs', 'encoding');
-        return config;
-      },
+  webpack: (config) => {
+    // Add specified modules to webpack externals
+    config.externals.push('pino-pretty', 'lokijs', 'encoding');
+    return config;
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
